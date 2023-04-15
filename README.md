@@ -53,5 +53,3 @@ Import this JSON file on Postman software, You will see all api route with docum
 
 
 Thanks
-Md Firoz Mia
-Software Engineer
