@@ -44,7 +44,11 @@ npm run dev
 ```
 The server will be started at http://localhost:5000 by default. You can change the port number by setting the PORT environment variable.
 
-
+### Navigate 
+```
+src>api>M360.postman_collection.json
+```
+Open it on Postman software, You will see all api route with documentation and able to test the api end point
 
 Thanks
 Md Firoz Mia
