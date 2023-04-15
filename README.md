@@ -26,6 +26,8 @@ npm install
 
 ## Usage
 
+Change with your database configuration in ENV file
+
 Run the database migration using 
 ```
 knex migrate:up
