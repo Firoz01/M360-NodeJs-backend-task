@@ -26,7 +26,10 @@ npm install
 
 ## Usage
 
-Run the database migration using knex migrate:up
+Run the database migration using 
+```
+knex migrate:up
+```
 
 Start the server by running the following command:
 
