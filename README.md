@@ -26,7 +26,7 @@ npm install
 
 ## Usage
 
-Change with your database configuration in ENV file
+Change ENV file with your database configuration
 
 Run the database migration using 
 ```
