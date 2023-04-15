@@ -8,7 +8,7 @@
     "start": "tsc && node dist/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Md Firoz Mia",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.13",
