@@ -1,6 +1,6 @@
 import app from "./app";
-import dotenv from "dotenv";
-import path from "path";
+import "dotenv/config";
+
 import { BACKEND_BASE_API_URL, PORT } from "./util/config";
 
 process.on("uncaughtException", (err: Error) => {
@@ -9,9 +9,9 @@ process.on("uncaughtException", (err: Error) => {
 
   process.exit(1);
 });
-dotenv.config({ path: path.resolve(__dirname, ".env") });
 
-const port = PORT || 5000;
+
+const port = process.env.PORT || 5000;
 const server = app.listen(port, () => {
   console.log(`\nServer running on ---> ${BACKEND_BASE_API_URL}\n`);
 });

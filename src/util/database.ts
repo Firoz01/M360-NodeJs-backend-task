@@ -1,13 +1,13 @@
 import Knex from "knex";
-import mysql from "mysql2";
+import { DATABASE, HOST, PASSWORD, USER } from "./config";
 
 const db = Knex({
   client: "mysql2",
   connection: {
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "test",
+    host: HOST,
+    user: USER,
+    password: PASSWORD,
+    database: DATABASE,
   },
   migrations: {
     directory: "./src/db/migrations",
